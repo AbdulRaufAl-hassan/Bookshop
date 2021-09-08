@@ -87,4 +87,14 @@ body {
   .shelves-container .shelf-row {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .xs-right-shelf {
+    background: url('../images/right.PNG') no-repeat;
+    background-size: cover;
+  }
+
+  .xs-left-shelf {
+    background: url('../images/left.PNG') no-repeat;
+    background-size: cover;
+  }
 }
